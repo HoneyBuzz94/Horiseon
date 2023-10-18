@@ -1,3 +1,4 @@
+/* general elements */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,16 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* header elments */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,15 +52,6 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 figure {
     height: 800px;
     width: 100%;
@@ -59,6 +61,7 @@ figure {
     background-position: center;
 }
 
+/* main elements */
 main {
     width: 75%;
     display: inline-block;
@@ -93,6 +96,7 @@ article h2 {
     margin-left: 25px;
 }
 
+/* aside elements */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -120,6 +124,7 @@ aside section img {
     max-width: 150px;
 }
 
+/* footer elements */
 footer {
     padding: 30px;
     clear: both;
